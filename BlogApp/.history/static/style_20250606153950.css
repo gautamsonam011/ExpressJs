@@ -1,0 +1,22 @@
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.blog {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.blog:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.blog a {
+  text-decoration: none;
+  color: #333;
+}
